@@ -14,6 +14,17 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .primary-button, .secondary-button, .button{
     display: inline-block;
     padding: 12px 25px;
@@ -23,6 +34,21 @@ body {
     transition: background-color 0.3s ease;
     border: none;
     text-decoration: none;
+}
+.primary-button {
+    background-color: #6a00ff;
+    color: #fff;
+}
+.primary-button:hover {
+    background-color: #5500dd;
+}
+.secondary-button{
+    background-color: transparent;
+    color: #6a00ff;
+    border: 2px solid #6a00ff;
+}
+.secondary-button:hover{
+    background-color: #e0d0ff;
 }
 .navbar{
     padding: 20px 0;
