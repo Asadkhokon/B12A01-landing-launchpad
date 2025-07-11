@@ -95,11 +95,11 @@ a {
 }
 
 .action-section {
-    padding: 80px 0;
-    background-color: #fff;
-    border-radius: 15px;
-    margin: 40px auto;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    padding: 0px 0px 0px 0px;
+    background-color: #f8faff;
+    margin: 50px 80px 50px 80px;
+    width: 1140px;
+    height: 328px;
 }
 
 .action-section .container {
@@ -125,5 +125,87 @@ a {
     max-width: 100%;
     height: auto;
     border-radius: 40px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin: 0px 0px 0px 0px;
+}
+
+.stats-section {
+    background-color: #e0d0ff;
+    padding: 40px 0;
+    border-radius: 15px;
+    margin: 50px 80px 20px 80px;
+    text-align: center;
+    width: 1140px;
+    height: 306px;
+}
+
+.stats-section .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stats-section .stat-item {
+    margin: auto;
+}
+.stats-section h2 {
+    margin: 20px 5px 20px 5px;
+}
+
+.stats-section .stat-item h3 {
+    font-size: 48px;
+    color: #6a00ff;
+    margin:20px 0px 20px 0px;
+}
+
+.stats-section .stat-item p {
+    font-size: 18px;
+    color: #444;
+    margin:20px;
+
+}
+
+.testimonials-section {
+    padding: 80px 0px;
+    background-color: #f8faff;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.testimonials-section .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.testimonial-card{
+background-color: #fff;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+text-align: left;
+
+}
+ .testimonial-card .fa{
+    color: orange;
+ }
+
+ .testimonial-card .fa-star { /* Target the paragraphs holding the stars */
+    display: inline-block; /* Keep stars in a line */
+    margin-right: 2px; /* Small space between stars */
+    font-size: 18px; /* Adjust star size */
+    color: #FFB805; /* Default grey for un-checked stars (if any) */
+}
+
+.testimonial-card .fa-star .checked {
+    color: #FFC107; /* Yellow/orange color for checked (filled) stars */
+}
+/* If you want all stars to be yellow by default from your HTML, you might just use this: */
+.testimonial-card .fa-star {
+    color: #FFC107; /* Assuming all stars are yellow by default */
+    margin-right: 2px;
 }
