@@ -43,8 +43,8 @@ a {
     background-color: #5500dd;
 }
 .secondary-button{
-    background-color: transparent;
-    color: #6a00ff;
+    background-color: #6a00ff;
+    color: #fff;
     border: 2px solid #6a00ff;
 }
 .secondary-button:hover{
@@ -79,4 +79,51 @@ a {
     color: #fff;
     padding: 8px 18px;
     border-radius: 5px;
+}
+
+/*Hero section*/
+.hero-section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f8faff;
+}
+.hero-section h1 {
+    font-size: 40px;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    color: #333;
+}
+
+.action-section {
+    padding: 80px 0;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 40px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.action-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.action-section .content-left {
+    flex: 1;
+}
+.action-section .content-left h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.action-section .image-right {
+    flex: 1;
+    text-align: right;
+}
+.action-section .image-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
