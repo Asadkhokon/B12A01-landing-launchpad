@@ -188,24 +188,65 @@ padding: 30px;
 border-radius: 10px;
 box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 text-align: left;
-
-}
- .testimonial-card .fa{
-    color: orange;
- }
-
- .testimonial-card .fa-star { /* Target the paragraphs holding the stars */
-    display: inline-block; /* Keep stars in a line */
-    margin-right: 2px; /* Small space between stars */
-    font-size: 18px; /* Adjust star size */
-    color: #FFB805; /* Default grey for un-checked stars (if any) */
+margin: 0px 20px 0px 20px;
 }
 
-.testimonial-card .fa-star .checked {
-    color: #FFC107; /* Yellow/orange color for checked (filled) stars */
+.testimonial-card .quote {
+font-style: italic;
+margin-bottom: 15px;
+color: #555;
 }
-/* If you want all stars to be yellow by default from your HTML, you might just use this: */
-.testimonial-card .fa-star {
-    color: #FFC107; /* Assuming all stars are yellow by default */
-    margin-right: 2px;
+
+.testimonial-card .author {
+    font-weight: 600;
+    color: #333;
 }
+
+.cta-banner-section {
+    padding: 05px 0px 5px 0px;
+    text-align: center;
+    background-color: #fff;
+    width: 1140px;
+    height: 620px;
+    margin: 0px 150px 0px 100px;
+}
+
+.cta-banner-section h2 {
+font-size: 36px;
+margin-bottom: 40px;
+color: #333;
+}
+
+.cta-banner-section .cta-image-wrapper {
+    position: relative;
+    width: 840px;
+    height: 364px;
+    margin: 20px 150px 71px 115px;
+    border-radius: 40px;
+
+}
+
+.cta-banner-section .cta-image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+
+}
+
+.contact-section {
+    padding: 80px 0;
+    background-color:#f8faff ;
+    border-radius: 15px;
+    margin: 40px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.contact-section .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+
